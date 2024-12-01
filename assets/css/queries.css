@@ -1,0 +1,127 @@
+@media (max-width: 78em) {
+  br {
+    display: none;
+  }
+
+  .general-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+
+  .social {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 2.5rem;
+  }
+
+  .social h1 {
+    line-height: 0.9;
+    font-size: 4.5rem;
+  }
+
+  .manage {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 2rem 2rem 1.5rem 2rem;
+  }
+
+  .manage h3 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .manage-image img {
+    width: 100%;
+  }
+
+  .maintain {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 2rem;
+  }
+  .maintain h3 {
+    font-size: 2.5rem;
+  }
+
+  .maintain-image {
+    transform: translate(0, 3.5rem);
+  }
+
+  .maintain-image img {
+    width: 78%;
+    position: static;
+  }
+
+  .schedule {
+    grid-column: 1/2;
+    grid-row: 5/ 6;
+    padding: 2rem;
+  }
+
+  .schedule h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .schedule-image img {
+    width: 100%;
+  }
+
+  .schedule p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .grow {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .grow h2 {
+    font-size: 3rem;
+  }
+
+  .grow-image img {
+    width: 80%;
+  }
+
+  .faster {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    padding: 2rem;
+  }
+
+  .faster-image img {
+    margin-top: 2rem;
+    width: 70%;
+  }
+
+  .create {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    padding: 2rem;
+  }
+
+  .create h2 {
+    font-size: 2.5rem;
+  }
+
+  .create-image img {
+    width: 70%;
+  }
+
+  .write {
+    grid-column: 1/2;
+    grid-row: 8/9;
+    padding: 2rem;
+  }
+  .write h2 {
+    font-size: 2.5rem;
+  }
+
+  .write-image img {
+    width: 70%;
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url("/assets/fonts/DMSans-VariableFont_opsz,wght.woff2")
+      format("woff2-variations"),
+    url("/assets/fonts/DMSans-Regular.woff2") format("woff2"),
+    url("/assets/fonts/DMSans-Regular.ttf") format("truetype"),
+    url("/assets/fonts/DMSans-Medium.woff2") format("woff2"),
+    url("/assets/fonts/DMSans-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 100 500;
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url("/assets/fonts/DMSans-Italic-VariableFont_opsz,wght.woff2")
+      format("woff2-variations"),
+    url("/assets/fonts/DMSans-MediumItalic.woff2") format("woff2"),
+    url("/assets/fonts/DMSans-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100 500;
+  font-optical-sizing: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  /* Weights: 400, 500 */
+  font-family: "DMSans", sans-serif;
+  max-height: 100vh;
+}
+
+.borderR {
+  border-radius: 1rem;
+}
+
+.shadow {
+  box-shadow: 15px 20px 40px rgba(167, 167, 167, 0.5);
+}
