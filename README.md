@@ -3,7 +3,9 @@
 This project is a responsive grid-based layout inspired by the **Frontend Mentor Bento Grid** challenge. It demonstrates the use of CSS Grid, custom fonts, modern CSS features, and responsive design principles.
 
 ---
-
+# Preview
+https://testimonials-cssgrid.netlify.app/
+---
 ## Features
 
 - **Responsive Grid Layout:** Uses CSS Grid with `auto-fit` and `minmax()` to create a flexible, dense grid.
