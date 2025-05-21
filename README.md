@@ -4,7 +4,7 @@ This project is a responsive grid-based layout inspired by the **Frontend Mentor
 
 ---
 # Preview
-https://testimonials-cssgrid.netlify.app/
+https://betocgeo.netlify.app/
 ---
 ## Features
 
